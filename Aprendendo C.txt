@@ -1,0 +1,31 @@
+C é uma linguagem de baixo/médio nível, muito usada por softwares embarcados.
+
+=================================================================================
+
+C não é uma linguagem orientada a objetos, mas sim procedural ou funcional,
+sendo guiada por blocos de funções, seguido uma lógica passo a passo.
+
+=================================================================================
+
+em C o seu controle de memória é acessado via ponteiros e alocação manual
+
+=================================================================================
+
+C é uma linguagem compilada para linguagem de máquina, gerando rápida execuções
+
+=================================================================================
+
+C tem alocação dinâmica, permitindo controle total da memória (vazamentos de memórias podem ocorrer)
+
+=================================================================================
+
+O C permite usar ponteiros, permitindo operações complexas, usado arrays, strings, passagem por referência
+
+=================================================================================
+
+O C tem uma biblioteca minimalista, tendo que usar poucas delas para maioria de sua utilidade 
+(pode ser negativo, caso queira usar algo mais especifico)
+
+=================================================================================
+
+Por fim, Dominar C é como entender a mecânica da programação
