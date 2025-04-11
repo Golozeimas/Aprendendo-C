@@ -2,11 +2,10 @@
 #include <string.h>
 #include <stdlib.h>
 
-int opMenu, opCadastroDeClientes, opCadastroDeProdutos;
+int opMenu, opCadastroDeClientes, opCadastroDeProdutos, opCadastro, oplistaDeClientes;
 
-char nome[100], cpf[14];
+char nome[100], cpf[14], celular[11], produto[60];
 
-int celular[11];
 
 
 void Menu(){
@@ -28,6 +27,8 @@ void Menu(){
 			break;
 		}
 		case 2:{
+			listaDeClientes();
+			break;
 		}
 		case 3:{
 			system("cls");
@@ -39,8 +40,9 @@ void Menu(){
 		}
 		default:{
 			system("cls");
-			Menu();
-			break;
+		printf("       insira de novo um numero valido      \n");
+		Menu();
+		break;
 		}
 	}
 }
@@ -57,11 +59,28 @@ void CadastroDeClientes(){
 	scanf("%i", &opCadastroDeClientes);
 	switch(opCadastroDeClientes){
 	case 1:{
-		Cadastro();
+		CadastroC();
+		break;
+	}
+	case 2:{
+		CadastroC();
+		break;
+	}
+	case 3:{
+		CadastroC();
+		break;
+	}
+	case 4:{
+		CadastroC();
 		break;
 	}
 	case 5:{
 		Menu();
+		break;
+	}default:{
+		system("cls");
+		printf("       insira de novo um numero valido      \n");
+		CadastroDeClientes();
 		break;
 	}
 	}	
@@ -78,7 +97,21 @@ void CadastroDeProdutos(){
 	scanf("%i", &opCadastroDeProdutos);
 }
 
-void Cadastro(){
+void listaDeClientes(){
+	
+	system("cls");
+	printf("cliente:%s\n", nome);
+	printf("cpf:%s\n", cpf);
+	printf("celular:%s\n", celular);
+	printf("produto:%s\n", produto);
+	
+	printf("Lista Atualizada\n");
+	system("pause");
+	system("cls");
+	Menu();
+}
+
+void CadastroC(){
 	system("cls");
 	getchar();	
 	printf("nome do cliente:\n");
@@ -87,6 +120,8 @@ void Cadastro(){
 	fgets(cpf, sizeof(cpf), stdin);
 	printf("numero do celular:\n");
 	fgets(celular, sizeof(celular), stdin);
+	printf("produto que comprou:\n");
+	fgets(produto, sizeof(produto), stdin);
 	
 	system("cls");
 	Menu();
