@@ -8,6 +8,8 @@ int codigoDoProduto, quantidade, i;
 
 float valorUnitario, valorTotal;
 
+int contadorDeNotas = 1;
+
 char descricao[100];
 
 void criarArquivo(){
@@ -47,10 +49,11 @@ void emitirNota(){
 
 int main (){
 	criarArquivo();
-	while(i<=1)
+	while(i <= contadorDeNotas)
 	{
 		dadosDoProduto();
 		emitirNota();
 		i++;
 	}
+	fclose(arquivo);
 }
