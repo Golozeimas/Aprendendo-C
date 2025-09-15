@@ -18,4 +18,33 @@ A linguagem **C** é considerada de **baixo/médio nível**, amplamente utilizad
 
 ---
 
-## ⚡ Compilação e Desempen
+## ⚡ Compilação e Desempenho
+- C é uma linguagem **compilada diretamente para código de máquina**.  
+- Isso proporciona **execução extremamente rápida**, ideal para softwares que precisam de performance.
+
+---
+
+## 🔗 Ponteiros e Estruturas
+- Ponteiros permitem operações complexas, como:  
+  - Manipulação de **arrays** e **strings**.  
+  - **Passagem por referência** em funções.  
+  - Estruturas de dados otimizadas.  
+
+---
+
+## 📚 Bibliotecas
+- C conta com uma **biblioteca padrão minimalista**.  
+- Na maioria dos casos, poucas bibliotecas já são suficientes.  
+- Contudo, essa limitação pode ser negativa ao precisar de recursos mais específicos.
+
+---
+
+## 🎯 Conclusão
+Dominar a linguagem C é como **entender a mecânica da programação**:  
+- Fornece bases sólidas para aprender outras linguagens.  
+- Desenvolve habilidades em **lógica, algoritmos e estruturas de dados**.  
+- Ensina a programar próximo ao hardware, com **máximo controle e eficiência**.
+
+---
+
+✍️ **Resumo**: Aprender C é mergulhar no coração da programação.
